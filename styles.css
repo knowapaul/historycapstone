@@ -1,0 +1,134 @@
+header {
+	height: 55px;
+	background-color: rgba(255, 255, 255, .3);
+	padding: 10px;
+}
+header > span {
+	float: right;
+}
+body {
+	background-image: url("resources/background.jpg");
+	background-size: 100%;
+	background-color: rgb(172, 150, 118);
+}
+h1 {
+	display: inline;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(63, 52, 39);
+	padding: 0px;
+}
+h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(63, 52, 39);
+	font-size: 25px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+h3 {
+	/* all h3 elements are labels*/
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(63, 52, 39);
+	font-size: 20px;
+}
+div.essay > a > h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+p {
+	color: rgb(63, 52, 39);
+}
+p.subtitle {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: inline;
+}
+p.body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 20px;
+	font-weight: 500;
+}
+div.essay > a > p {
+	margin-bottom: 0px;
+}
+a.button {
+	width: 150px;
+	line-height: 55px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(63, 52, 39);
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+}
+a.button:hover {
+	background-color: rgba(255, 255, 255, .3);
+}
+.bold {
+	font-weight: bolder;
+}
+.example {
+	width: 25%;
+	float: right;
+	margin-top: 10px;
+}
+.text {
+	width: 70%;
+	display: inline-block;
+}
+div.example, div.text {
+	background-color: rgba(255, 255, 255, .3);
+	color: rgb(63, 52, 39);
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 12px;
+}
+div.grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+div.link {
+	background-color: rgba(255, 255, 255, .3);
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+div.gallery > a > img {
+	width: 100%;
+}
+div.link:hover {
+	background-color: rgba(255, 255, 255, .6);
+}
+div.link > a{
+	text-decoration: none;
+}
+#start {
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 12px;
+	width: 20%;
+	background-color: rgba(43, 156, 255, .3);
+	font-size: 20px;
+}
+#start:hover {
+	background-color: rgba(43, 156, 255, .5);
+}
+.references {
+	font-size: 15px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+sup {
+	font-size: 12px;
+}
+sup.primary {
+	color: rgb(167, 132, 36);
+	float: right;
+}
+div.link.bluelink {
+	background-color: rgba(43, 156, 255, .3);
+}
+div.link.bluelink:hover {
+	background-color: rgba(43, 156, 255, .5);
+}
+ol {
+	font-family:  Georgia, 'Times New Roman', Times, serif;
+	font-size: 1em;
+}
